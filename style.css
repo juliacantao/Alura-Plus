@@ -1,5 +1,5 @@
-:root { 
-    --branco-principal: #FFFFFF;
+:root {
+    --branco-principal: #ffffff;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
@@ -45,7 +45,7 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal);
+    border: 2px solid var(--branco-principal);   
 }
 
 .container_aviso {
@@ -53,7 +53,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-.container_titulo{
+.container_titulo {
     font-size: 28px;
     font-weight: 700;
 }
@@ -66,7 +66,7 @@ body {
     margin: 0 6em;
 }
 
-.img_secundario {
+.imagem_secundario {
     width: 80%;
 }
 
@@ -78,5 +78,10 @@ body {
 .descricao_titulo {
     font-weight: 700;
     font-size: 46px;
-    color: (var(--branco-principal)
+    color: var(--branco-principal);
+    margin: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
 }
